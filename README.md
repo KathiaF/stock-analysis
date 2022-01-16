@@ -66,21 +66,23 @@ The focus of this analysis is to visualize campaign which stocks are the most pr
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Analysis outcome
 After running the code for the stock analysis in both years, the output result looks like this:
-- 2017
-<img src="/Resources/img2017.png" width="30%" height="30%">
-
-- 2018
-<img src="/Resources/img2018.png" width="30%" height="30%">
+| 2017 | 2018 |
+| --- | --- |
+| <img src="/Resources/img2017.png" width="50%" height="50%"> | <img src="/Resources/img2018.png" width="50%" height="50%"> |
 
 *Note: Green stocks indicate a positive return; if the result is negative, it is indicated with red*
 
-Almost all stocks in 2017 offered a positive return and it is observed that DQ was the company that showed the highest growth at 199.4%, however, as can be seen, the majority of stocks fell in 2018, with DQ being the company that had the largest drop in its shares by 62.2%
+Almost all stocks in 2017 offered a positive return and it is observed that DQ was the company that showed the highest growth at 199.4%, however, as can be seen, the majority of stocks fell in 2018, with DQ being the company that had the largest drop by 62.2%
 
 It is recommended not to invest in DQ, and from this analysis, it can be seen that these stocks are not a safe first place for an investment, with the exception of RUN, which gained 81.9% and could be a good option to invest.
 
 
 ### VBA Performance (Refactor VBA code)
-The data was processed using a VBA script in Excel. Using the original script, the queries were performed in approximately 0.16 seconds for both 2017 and 2018 datasets.
+Using the original script, the code was performed in approximately 0.72 and 0.60 seconds for both 2017 and 2018 datasets respectively,
+meanwhile, refactoring this script managed to improved runtime only slightly, approaching it to 0.55 seconds.
+| 2017 | 2018 |
+| --- | --- |
+| <img src="/Resources/VBA_Challenge_2017.png"> | <img src="/Resources/VBA_Challenge_2018.png"> |
 
 ## Summary
 Code refactoring is the process of restructuring the original script without changing its external behavior. Refactoring is intended to improve the design, structure, and implementation of the code while preserving its functionality.
