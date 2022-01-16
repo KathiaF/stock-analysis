@@ -9,20 +9,62 @@ Steve loved the first macro that was created, and in the future he is planning t
 ## Results
 ### Analysis of stocks
 - Data set information:
-  - Two data set for the years 2017 and 2018  
+  - Two data set (years 2017 and 2018)
   - Data from 12 green energy companies (tickers)
   - Each data set contaided 3012 rows
   - Attribute information:
     - Ticker, Date, Open, High, Low,	Close,	Adj Close and	Volume
    
-
 The focus of this analysis is to visualize campaign which stocks are the most profitable. In order to do this, the following steps needed to be taken prior to conducting the analysis:
 
-1. Pseudocode 
+1. Create a draft (pseudocode) 
+<img src="/Resources/img1.png" width="50%" height="50%">
 
+2. *Define time variables* and ask for the year to perform the analysis (*inputbox*)
+<img src="/Resources/img2.png" width="50%" height="50%">
 
-3. sasa
+3. Measure code performance.
+  - 3.1 Underneath the *yearValuevariable* set the *startTime* variable equal to the **Timer function**, which will allow us to start the clock
+  - 3.2 After the last *Next i* and before the *End Sub* command, set the endTime variable equal to the **Timer function**.
+  - 3.3 Create a *messagebox* that displays the elapsed time
+  <img src="/Resources/img3.png" width="50%" height="50%">
 
+4. Format the output sheet
+  - 4.1 Activate the output worksheet 
+  - 4.2 Add headers
+  <img src="/Resources/img4.png" width="50%" height="50%">
+  
+5. Assign each of the tickers to an element in an array
+<img src="/Resources/img5.png" width="50%" height="50%">
+
+6. Depending on the year selected in the inputbox, the worksheet is activated and get the number of rows in the worksheet to loop over
+<img src="/Resources/img6.png" width="50%" height="50%">
+
+7. Create an index variable and set it equal to zero before iterating over all the rows. Also create the output arrays
+<img src="/Resources/img7.png" width="50%" height="50%">
+
+8. Create nested loops to run analyses on all of the stocks
+  - Step 2a: Create a for loop to initialize the *tickerVolumes* to zero.
+  - Step 2b: Create a for loop that will loop over all the rows in the spreadsheet.
+  - Step 3a: Write a script that increases the current *tickerVolumes* variable and adds the ticker volume for the current stock ticker.
+  - Step 3b: Write an if-then statement to check if the current row is the first row with the selected *tickerIndex*. If it is, then assign the current starting price to the tickerStartingPrices variable.
+  - Step 3c: Write an if-then statement to check if the current row is the last row with the selected *tickerIndex*. If it is, then assign the current closing price to the tickerEndingPrices variable.
+  - Step 3d: Increase the *tickerIndex* if the next row’s ticker doesn’t match the previous row’s ticker.
+  <img src="/Resources/img8.png" width="50%" height="50%">
+
+9. Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in your spreadsheet.
+<img src="/Resources/img9.png" width="50%" height="50%">
+
+10. Use visual and numeric formatting in outputs for the selected year stock analysis
+<img src="/Resources/img10.png" width="50%" height="50%">
+
+11. Assign the macro/vba script to a control button 
+<img src="/Resources/img11.png" width="50%" height="50%">
+
+#### Analysis outcome
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+After running 
 ### VBA Performance (Refactor VBA code)
 
 
