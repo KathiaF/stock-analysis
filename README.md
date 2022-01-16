@@ -56,15 +56,28 @@ The focus of this analysis is to visualize campaign which stocks are the most pr
 <img src="/Resources/img9.png" width="50%" height="50%">
 
 10. Use visual and numeric formatting in outputs for the selected year stock analysis
+    - the green color indicates that the result is positive; if the result is negative, it is indicated with red
 <img src="/Resources/img10.png" width="50%" height="50%">
 
 11. Assign the macro/vba script to a control button 
 <img src="/Resources/img11.png" width="50%" height="50%">
 
-#### Analysis outcome
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-After running 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Analysis outcome
+After running the code for the stock analysis in both years, the output result looks like this:
+- 2017
+<img src="/Resources/img2017.png" width="30%" height="30%">
+
+- 2018
+<img src="/Resources/img2018.png" width="30%" height="30%">
+
+*Note: Green stocks indicate a positive return; if the result is negative, it is indicated with red*
+
+
+
+
+
 ### VBA Performance (Refactor VBA code)
 
 
