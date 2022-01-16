@@ -8,10 +8,20 @@ Steve loved the first macro that was created, and in the future he is planning t
 
 ## Results
 ### Analysis of stocks
+- Data set information:
+  - Two data set for the years 2017 and 2018  
+  - Data from 12 green energy companies (tickers)
+  - Each data set contaided 3012 rows
+  - Attribute information:
+    - Ticker, Date, Open, High, Low,	Close,	Adj Close and	Volume
+   
 
-Both sets of data contained 3012 rows of raw data which were processed, and 12 tickers which were summarized.
+The focus of this analysis is to visualize campaign which stocks are the most profitable. In order to do this, the following steps needed to be taken prior to conducting the analysis:
+
+1. Pseudocode 
 
 
+3. sasa
 
 ### VBA Performance (Refactor VBA code)
 
