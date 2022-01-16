@@ -2,7 +2,7 @@
 Module 2. VBA
 ## Overview of Project
 
-The purpose of this analysis is to help Steve analize a data set of green energy stocks from the years 2017 and 2018, as his parents are interested in investing their money in a company DAQO New Energy Corp. Steve promised to look into DAQO stock along with several other companies for his parents. In order to assist Steve, a VBA script was developed in Excel to analyse the data set and provide the total daily volume and yearly return for each stock. 
+The purpose of this analysis is to help Steve analize a data set of green energy stocks from the years 2017 and 2018, as his parents are interested in investing their money in a company DQ New Energy Corp (DQ). Steve promised to look into DQ stock along with several other companies for his parents. In order to assist Steve, a VBA script was developed in Excel to analyse the data set and provide the total daily volume and yearly return for each stock. 
 
 Steve loved the first macro that was created, and in the future he is planning to perform the analysis on larger data sets, therefore, It was decided to refactor the script to see if it is possible to reduce the processing time.
 
@@ -74,12 +74,13 @@ After running the code for the stock analysis in both years, the output result l
 
 *Note: Green stocks indicate a positive return; if the result is negative, it is indicated with red*
 
+Almost all stocks in 2017 offered a positive return and it is observed that DQ was the company that showed the highest growth at 199.4%, however, as can be seen, the majority of stocks fell in 2018, with DQ being the company that had the largest drop in its shares by 62.2%
 
-
+It is recommended not to invest in DQ, and from this analysis, it can be seen that these stocks are not a safe first place for an investment, with the exception of RUN, which gained 81.9% and could be a good option to invest.
 
 
 ### VBA Performance (Refactor VBA code)
-
+The data was processed using a VBA script in Excel. Using the original script, the queries were performed in approximately 0.16 seconds for both 2017 and 2018 datasets.
 
 ## Summary
 Code refactoring is the process of restructuring the original script without changing its external behavior. Refactoring is intended to improve the design, structure, and implementation of the code while preserving its functionality.
